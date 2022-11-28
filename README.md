@@ -1,6 +1,7 @@
 # Gitleaks.
 Proyecto que busca leaks de credenciales en github a través de la libreria GitPython, usando expresiones regulares y devolviendo un fichero json con
 todos los leaks encontrados. Se ha implementado una barra de progreso y se ha desplegado a traves de Docker.
+- Para lanzar el programa sera necesario crear una carpeta llamada 'out' dentro del directorio de trabajao.
 ## Compressed Skale.
 Para el correcto funcionamiento del programa sera necesario descomprimir la carpeta  compressed_skale en el mismo directorio de trabajo que el resto de archivos.
 ## Requirements.
