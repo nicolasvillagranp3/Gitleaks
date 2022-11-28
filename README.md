@@ -5,7 +5,8 @@ todos los leaks encontrados. Se ha implementado una barra de progreso y se ha de
 Para lanzar la imagen de docker habra que seguir los siguientes pasos:
 Los archivos deben de ser extraidos en una carpeta en la que se trabajara desde la terminal. 
 1. Crear la imagen: 
->>>docker build . -t 'nombre con el que quieras llamarlo'- (El punto indica que se cogen todos los archivos del directorio en el que nos encontramos)
+>>>docker build . -t 'nombre con el que quieras llamarlo'
+- (El punto indica que se cogen todos los archivos del directorio en el que nos encontramos)
 2. Una vez que tengamos la imagen creada tendremos que elegir un path absoluto del directorio al que queramos que se linkee el contenedor de docker.
 para que podamos ver la salida. Esto se hara de la siguiente forma. 
 absolute_path = ['path del directorio de salida host']. En el caso en el que no exista el directorio que queremos linkear lo crea.
