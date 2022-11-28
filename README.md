@@ -10,5 +10,5 @@ Los archivos deben de ser extraidos en una carpeta en la que se trabajara desde 
 2. Una vez que tengamos la imagen creada tendremos que elegir un path absoluto del directorio al que queramos que se linkee el contenedor de docker.
 para que podamos ver la salida. Esto se hara de la siguiente forma. 
 absolute_path = ['path del directorio de salida host']. En el caso en el que no exista el directorio que queremos linkear lo crea.
->>>docker run -v absolute_path:/out 'nombre con el que hayas llamado a la imagen'
-Es importante mantener la estructura del anterior comando. En particular el path tras ':' no debera ser alterado ya que es el directorio interno del contenedor.
+>>>docker run -v absolute_path:/out 'nombre con el que hayas llamado a la imagen'.
+3.Es importante mantener la estructura del anterior comando. En particular el path tras ':' no debera ser alterado ya que es el directorio interno del contenedor.
